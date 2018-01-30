@@ -1,0 +1,46 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "block-scoped-var": "error",
+    "eqeqeq": ["error", "always", {"null": "ignore"}],
+    "indent": ["error", 2, { "SwitchCase": 1, "VariableDeclarator": 2 }],
+    "linebreak-style": ["error", "unix"],
+    "max-len": ["error", { "code": 80 }],
+    "no-fallthrough": "off",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "valid-jsdoc": "warn",
+
+    "new-cap": "error",
+    "new-parens": "error",
+    "no-caller": "error",
+    "no-catch-shadow": "error",
+    "no-extend-native": "error",
+    "no-floating-decimal": "error",
+    "no-implicit-coercion": "error",
+    "no-implied-eval": "error",
+    "no-invalid-this": "error",
+    "no-loop-func": "warn",
+    "no-nested-ternary": "warn",
+    "no-new": "error",
+    "no-param-reassign": "error",
+    "no-sequences": "error",
+    "no-unused-expressions": "error",
+    "no-undefined": "error",
+    "no-unused-vars": "warn",
+    "no-with": "warn",
+    "no-console": 0
+  }
+}
